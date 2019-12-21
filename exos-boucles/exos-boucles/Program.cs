@@ -107,9 +107,9 @@ namespace exos_boucles
                 multiplesDeCinq.Add(i);
             }
 
-            foreach(int i in multiplesDeTrois)
+            foreach(int i in multiplesDeCinq)
             {
-                if (multiplesDeCinq.Contains(i))
+                if (multiplesDeTrois.Contains(i))
                 {
                     Console.WriteLine(i);
                     somme += i*2; // On fait *2 car le nombre est présent dans les deux listes, donc pour 15 par exemple, on additionne 15 de multiplesDeTrois + 15 de multiplesDeCinq
